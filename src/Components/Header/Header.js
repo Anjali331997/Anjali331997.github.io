@@ -55,7 +55,7 @@ function Header() {
           <Link to="home">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
-                className="fork-btn-inner"
+                className="fork-btn-inner nav-link home"
               >
                 Home
           </Button>
@@ -66,7 +66,7 @@ function Header() {
           <Link to="about">
           <Button onClick={()=>{rel(x)}} 
                 target="_blank"
-                className="fork-btn-inner"
+                className="fork-btn-inner nav-link about"
               >
                 About
           </Button>
@@ -77,7 +77,7 @@ function Header() {
           <Link to="skills">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
-                className="fork-btn-inner"
+                className="fork-btn-inner nav-link skills"
               >
                 Skills
           </Button>
@@ -88,7 +88,7 @@ function Header() {
           <Link to="projects">
           <Button onClick={()=>{rel(x)}}
                 target="_blank"
-                className="fork-btn-inner"
+                className="fork-btn-inner nav-link projects"
               >
                 Projects
           </Button>
@@ -99,7 +99,7 @@ function Header() {
           <Link to="contact">
           <Button onClick={rel}
                 target="_blank"
-                className="fork-btn-inner "
+                className="fork-btn-inner nav-link contact"
               >
                 Contact
           </Button>
@@ -107,8 +107,6 @@ function Header() {
           </Nav.Item>
      
             <Nav.Item className="fork-btn">
-
-
             <Button
               width="max-content"
               id="resume-button-1"

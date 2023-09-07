@@ -12,7 +12,7 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={5} className="home-profile" style={{ paddingBottom: 20 }}>
-              <img src={myImg} alt="home pic" className="img-fluid" />
+              <img src={myImg} alt="home pic" className="img-fluid home-img" />
             </Col>
             <Col md={7} className="home-header">
               <h1  className="heading">
@@ -21,7 +21,7 @@ function Home() {
 
               <h1 className="heading-name ">
                 I'M
-                <strong className="main-name br"> Anjali</strong>
+                <strong className="main-name br" id="user-detail-name"> Anjali</strong>
               </h1>
 
               <div style={{  textAlign: "left" }}>

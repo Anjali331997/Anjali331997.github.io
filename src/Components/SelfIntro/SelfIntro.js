@@ -10,7 +10,7 @@ function SelfIntro() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body" id="user-detail-intro">
             Hi, I'm Anjali A P, MERN stack developer based in Thrissur, Kerala,
             curious to learn more about developing scalable distributed systems, love problem-solving, and
             care about writing readable as well as maintainable code.

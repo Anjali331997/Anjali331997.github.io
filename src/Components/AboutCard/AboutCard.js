@@ -4,10 +4,10 @@ import Card from "react-bootstrap/Card";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className="quote-card-view about section" id="about">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "justify" }} id="user-detail-intro">
             Hi, I'm Anjali A P, MERN stack developer based in Thrissur, Kerala,
             curious to learn more about developing scalable distributed systems, love problem-solving, and
             care about writing readable as well as maintainable code.

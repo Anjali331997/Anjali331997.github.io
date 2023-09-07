@@ -5,7 +5,7 @@ import ToolStack from "../Components/ToolStack/ToolStack";
 
 function About() {
   return (
-    <Container id="about" fluid className="about-section">
+    <Container id="about" fluid className="about section">
       {/* <Particle /> */}
       <Container>
         <Techstack />

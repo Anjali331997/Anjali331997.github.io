@@ -19,23 +19,23 @@ function Address() {
         <Col xs={4} md={2} className="tech-icons">
             <BsTelephone/>
             <br/>
-            <span>8078304060</span>
+            <span id="contact-phone">8078304060</span>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <HiOutlineMailOpen/>
            <br/>
-            <a style={{textDecoration: 'none',color: 'black'}}  href="mailto:anjaliap3march1997@gmail.com">anjaliap3march1997@gmail.com</a>
+            <a style={{textDecoration: 'none',color: 'black'}}  href="mailto:anjaliap3march1997@gmail.com" id="contact-email">anjaliap3march1997@gmail.com</a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <AiFillGithub/>
             <br/>
-            <a style={{textDecoration: 'none',color: 'black'}}  href="https://github.com/Anjali331997" target="_blank" rel="noopener noreferrer">Github</a>
+            <a style={{textDecoration: 'none',color: 'black'}}  href="https://github.com/Anjali331997" target="_blank" rel="noopener noreferrer" id="contact-github">Github</a>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
             <AiFillLinkedin/>
             <br/>
             
-            <a style={{textDecoration: 'none',color: 'black'}}  href="https://www.linkedin.com/in/anjali-a-p-3b571b18a/"  target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a style={{textDecoration: 'none',color: 'black'}}  href="https://www.linkedin.com/in/anjali-a-p-3b571b18a/"  target="_blank" rel="noopener noreferrer" id="contact-linkedin">LinkedIn</a>
         </Col>
       </Row>
 
