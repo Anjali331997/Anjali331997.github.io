@@ -6,7 +6,10 @@ function SelfIntro() {
     <Container fluid className="home-about-section  container-fluid"  id="about">
       <Container>
         <Row>
-          <Col md={16} className="home-about-description">
+          <Col md={16} className="home-about-description about">
+          <h1 style={{ fontSize: "2.8em" }}>
+               About
+            </h1>
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
