@@ -23,73 +23,73 @@ function Techstack() {
     </h1>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
      
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://reactjs.org/" target={"_blank"}>  
-        <DiReact />
-        <p>React</p>
+        <DiReact className="skills-card-img"/>
+        <p className="skills-card-name">React</p>
       </a>
       </Col>
 
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://redux.js.org/" target={"_blank"}> 
-        <SiRedux />
-        <p>Redux</p>
+        <SiRedux className="skills-card-img"/>
+        <p className="skills-card-name">Redux</p>
       </a>
       </Col>
 
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://expressjs.com/" target={"_blank"}>
-        <SiExpress />
-        <p>Express</p>
+        <SiExpress className="skills-card-img"/>
+        <p className="skills-card-name">Express</p>
       </a>
       </Col>
 
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://www.mongodb.com/" target={"_blank"}> 
-        <DiMongodb />
-        <p>Mongodb</p>
+        <DiMongodb className="skills-card-img"/>
+        <p className="skills-card-name">Mongodb</p>
       </a>
       </Col>
       
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://nodejs.org/en/" target={"_blank"}>
-        <DiNodejs />
-        <p>Nodejs</p>
+        <DiNodejs className="skills-card-img"/>
+        <p className="skills-card-name">Nodejs</p>
       </a>
       </Col>
 
-    <Col xs={4} md={2} className="tech-icons">
+    <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" target={"_blank"}>
-        <DiJavascript1 />
-        <p>Javascript</p>
+        <DiJavascript1 className="skills-card-img"/>
+        <p className="skills-card-name">Javascript</p>
       </a>
       </Col>
 
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://tailwindcss.com/" target={"_blank"}>
-        <SiTailwindcss />
-        <p>Tailwind</p>
+        <SiTailwindcss className="skills-card-img"/>
+        <p className="skills-card-name">Tailwind</p>
         </a>
       </Col>
       
       
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons skills-card">
        <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML" target={"_blank"}>
-        <DiHtml5 />
-        <p>Html5</p>
+        <DiHtml5 className="skills-card-img"/>
+        <p className="skills-card-name">Html5</p>
         </a>
       </Col>
       
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://github.com/" target={"_blank"}>
-        <DiGithubBadge />
-        <p>Github</p>
+        <DiGithubBadge className="skills-card-img"/>
+        <p className="skills-card-name">Github</p>
         </a>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons skills-card">
       <a href = "https://getbootstrap.com/" target={"_blank"}>
-        <DiBootstrap />
-        <p>Bootstrap</p>
+        <DiBootstrap className="skills-card-img"/>
+        <p className="skills-card-name">Bootstrap</p>
         </a>
       </Col>
     </Row>

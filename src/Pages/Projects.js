@@ -4,7 +4,7 @@ import ProjectCards from "../Components/ProjectCards/ProjectCards";
 
 function Projects() {
   return (
-    <Container id="projects" fluid className="project-section">
+    <Container id="projects" fluid className="project-card">
       <Container>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
