@@ -8,7 +8,7 @@ function SelfIntro() {
     <Container fluid className="home-about-section  container-fluid"  id="about">
       <Container>
         <Row>
-          <Col md={16} className="home-about-description about">
+          <Col md={16} className="home-about-description about section container">
           <h1 style={{ fontSize: "2.8em" }}>
                About
             </h1>
