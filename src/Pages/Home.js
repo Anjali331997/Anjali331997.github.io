@@ -4,10 +4,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../Assets/my-avatar.jpg";
 import SelfIntro from "../Components/SelfIntro/SelfIntro";
 import TypeWriter from "../Components/TypeWriter/TypeWriter";
+import { FaLinkedinIn } from "react-icons/fa";
+import { AiFillGithub } from "react-icons/ai";
+// import "../Components/Footer/Footer"
+import Button from "react-bootstrap/Button";
 
 function Home() {
   return (
-    <section id="home"> 
+    <section id="home">
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
           <Row>
@@ -15,7 +19,7 @@ function Home() {
               <img src={myImg} alt="home pic" className="img-fluid home-img" />
             </Col>
             <Col md={7} className="home-header">
-              <h1  className="heading">
+              <h1 className="heading">
                 Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
               </h1>
 
@@ -24,18 +28,19 @@ function Home() {
                 <strong className="main-name br" id="user-detail-name"> Anjali</strong>
               </h1>
 
-              <div style={{  textAlign: "left" }}>
+              <div style={{ textAlign: "left" }}>
                 <TypeWriter />
               </div>
+
             </Col>
 
-            
-            
+
+
           </Row>
-        </Container>    
+        </Container>
       </Container>
-      <SelfIntro/>
-      
+      <SelfIntro />
+
     </section>
   );
 }
