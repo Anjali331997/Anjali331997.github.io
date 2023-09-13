@@ -6,8 +6,12 @@ import SelfIntro from "../Components/SelfIntro/SelfIntro";
 import TypeWriter from "../Components/TypeWriter/TypeWriter";
 import { FaLinkedinIn } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
+import Anjali_A_P from '../resume/Anjali_A_P.pdf'
 // import "../Components/Footer/Footer"
+import './Home.css'
 import Button from "react-bootstrap/Button";
+
+
 
 function Home() {
   return (
@@ -32,10 +36,37 @@ function Home() {
                 <TypeWriter />
               </div>
 
+              <div>
+              <Button
+                width="max-content"
+                id="resume-button-2"
+
+                className="nav-link resume fork-btn-inner"
+                onClick={() => {
+                  window.open(
+                    "https://drive.google.com/file/d/1SAvapziRKxPJhMHzhugs64t4ME929Rso/view?usp=drive_link",
+                    "_blank"
+                  );
+                }}
+              >
+                <a
+                  id="resume-link-2"
+                  href={Anjali_A_P}
+                  target="_blank"
+                  rel="noreferrer"
+                  download="Anjali_A_P.pdf"
+                  className="fork-btn-inner"
+                >
+                  Resume
+                </a>
+                {/* <Text as="span" ml={"2"}>
+                <AiOutlineDownload fontSize={"1.2rem"} />
+              </Text> */}
+              </Button>
+            </div>
+
             </Col>
-
-
-
+           
           </Row>
         </Container>
       </Container>

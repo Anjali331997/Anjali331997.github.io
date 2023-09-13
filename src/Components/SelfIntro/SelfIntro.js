@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Anjali_A_P from '../../resume/Anjali_A_P.pdf'
+import Button from "react-bootstrap/Button";
 
 function SelfIntro() {
   return (
@@ -21,7 +23,10 @@ function SelfIntro() {
             and Node. I firmly believe that collaboration is the cornerstone of building great things, and I
             am always eager to work with others to create something truly amazing. </p>
           </Col>
-        
+
+          
+
+          
         </Row>
         <Row>
         </Row>
