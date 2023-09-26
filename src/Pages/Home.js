@@ -9,11 +9,20 @@ import { AiFillGithub } from "react-icons/ai";
 import Anjali_A_P from '../resume/Anjali_A_P.pdf'
 // import "../Components/Footer/Footer"
 import './Home.css'
-import { Button } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-scroll";
 
 
 
 function Home() {
+  const x = window.matchMedia("(max-width:1000px)")
+
+  function rel(x) {
+    if (x.matches) { // If media query matches
+      let a = document.getElementById("tgl");
+      a.click();
+    }
+  }
   return (
     <section id="home">
       <Container fluid className="home-section" id="home">
@@ -36,17 +45,52 @@ function Home() {
                 <TypeWriter />
               </div>
 
-              <div>
-
-              </div>
 
             </Col>
 
           </Row>
         </Container>
-      </Container>
-      <SelfIntro />
 
+      </Container>
+
+
+
+      <SelfIntro />
+      <div className="about-buttons-div">
+ <h1>
+  Click below to view my works
+ </h1>
+        <Button
+          width="max-content"
+          id="resume-button-2"
+          className="about-buttons"
+          onClick={() => {
+            window.open(
+              "https://drive.google.com/file/d/1SAvapziRKxPJhMHzhugs64t4ME929Rso/view?usp=drive_link",
+              "_blank"
+            );
+          }}
+        >
+          <a
+            id="resume-link-2"
+            href={Anjali_A_P}
+            target="_blank"
+            rel="noreferrer"
+            download="Anjali_A_P.pdf" style={{ color: "white", textDecoration: "none" }}
+          >
+            Resume
+          </a>
+        </Button>
+
+        <Link to="projects">
+          <Button onClick={() => { rel(x) }}
+            target="_blank"
+            className="projects about-buttons"
+          >
+            Projects
+          </Button>
+        </Link>
+      </div>
     </section>
   );
 }

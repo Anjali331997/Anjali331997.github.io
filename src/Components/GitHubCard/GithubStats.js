@@ -9,16 +9,18 @@ import {
     Container,
     MainContainer,
 } from './Styles';
+import GitHubCalendar from 'react-github-calendar';
 
 export const GithubStats = () => {
     return (
         <Container>
             <h1 className="home-about-description">Days I <span className="purple">Worked</span> </h1>
-            <img className='react-activity-calendar'
+            <GitHubCalendar className='react-activity-calendar' username="anjali331997" style={{ width: '100%', display: 'block', margin: 'auto', color:"#0A81AB"}} />
+            {/* <img className='react-activity-calendar'
                 alt='github calender'
                 style={{ width: '80%', display: 'block', margin: 'auto' }}
                 src='https://ghchart.rshah.org/021F34/Anjali331997'
-            />
+            /> */}
             <h1 className="home-about-description">My <span className="purple">Statistics</span> </h1>
             <MainContainer>
                 <div className='stats'>
