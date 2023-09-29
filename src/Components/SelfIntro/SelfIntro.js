@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Anjali_A_P from '../../resume/Anjali_A_P.pdf'
+// import Anjali_A_P from '../../resume/Anjali_A_P.pdf'
 import Button from "react-bootstrap/Button";
 
 function SelfIntro() {
