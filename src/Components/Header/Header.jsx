@@ -59,7 +59,7 @@ const Header = () => {
                         "_blank"
                       );
                     }}>
-                            <a download="Anjali_AP_Resume" href={CV} className="nav__link nav-link" id="resume-button-1">
+                            <a download="Anjali_AP_Resume" href={CV} className="nav__link nav-link resume" id="resume-button-1">
                                 <i className="uil uil-file-alt nav__icon">
 
                                 </i>Resume
