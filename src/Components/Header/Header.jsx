@@ -14,16 +14,15 @@ const Header = () => {
                 <div className={Toggle?"nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grids">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link active_link nav-link">
+                            <a href="#home" className="nav__link active_link nav-link home">
                                 <i className="uil uil-estate nav__icon">
-
                                 </i>
                                 Home
                             </a>
                         </li>
 
                         <li className="nav__item">
-                            <a href="#about" className="nav__link nav-link">
+                            <a href="#about" className="nav__link nav-link about">
                                 <i className="uil uil-user nav__icon">
 
                                 </i> About
@@ -31,7 +30,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#skills" className="nav__link nav-link">
+                            <a href="#skills" className="nav__link nav-link skills">
                                 <i className="uil uil-setting nav__icon">
 
                                 </i>Skills
@@ -39,7 +38,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#projects" className="nav__link nav-link">
+                            <a href="#projects" className="nav__link nav-link projects">
                                 <i className="uil uil-briefcase nav__icon">
 
                                 </i>Projects
@@ -47,7 +46,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link nav-link">
+                            <a href="#contact" className="nav__link nav-link contacts">
                                 <i className="uil uil-phone nav__icon">
 
                                 </i>Contact
