@@ -46,7 +46,7 @@ const Header = () => {
                         </li>
 
                         <li className="nav__item">
-                            <a href="#contact" className="nav__link nav-link contacts">
+                            <a href="#contact" className="nav__link nav-link contact">
                                 <i className="uil uil-phone nav__icon">
 
                                 </i>Contact
