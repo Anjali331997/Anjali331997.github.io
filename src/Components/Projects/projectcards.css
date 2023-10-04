@@ -1,0 +1,61 @@
+.project-card-view {
+  box-shadow: 3 4px 5px 3px #7a7a7a !important;
+  color: rgb(15, 15, 15) !important;
+  background-color: var(--container-color) !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  border: 1px var(--title-color) solid;
+  border-radius: 1.25rem !important;
+}
+
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  overflow: hidden !important;
+  box-shadow: 0 1px 2px 1px #525353 !important;
+}
+
+.project-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.project_body {
+  padding: .8rem;
+}
+
+.project-description {
+  font-size: var(--small-font-size);
+  margin-bottom: 2px;
+}
+
+.tech-stack-title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 2px;
+}
+
+.project-tech-stack {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  background-color: #b6b6b9;
+  padding: 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 1.25rem;
+
+  margin-bottom: 1rem;
+
+}
+
+.project_image {
+  border-top-right-radius: 1.25rem;
+  border-top-left-radius: 1.25rem;
+}
+
+.project-buttons {
+  font-size: 1.5rem !important;
+  color: var(--title-color) !important;
+}

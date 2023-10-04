@@ -25,3 +25,24 @@
 .ctn{
   color:#0A81AB ;
 }
+.contacts{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: space-around;
+  align-content: center;
+  gap: 1rem;
+  color: black;
+
+}
+
+.tech-icons{
+  background-color: var(--container-color);
+  display: flex;
+  align-content: center;
+  gap: 1px;
+  color: black;
+}
+
+.tech-icons a{
+  color: black;
+}

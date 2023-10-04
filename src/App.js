@@ -1,24 +1,25 @@
-import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./Pages/Home";
-import About from "./Pages/About";
-import Projects from "./Pages/Projects";
-import Header from "./Components/Header/Header"
-import Footer from "./Components/Footer/Footer"
-import Contact from "./Pages/Contact"
-import "./style.css";
-import { GithubStats } from "./Components/GitHubCard/GithubStats";
-function App() {
+import Header from './components/Header/Header';
+import './App.css';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import { Skills } from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
+import { GithubStats } from './components/Github/Github';
+import Address from './components/Address/Address';
 
+function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
-      <Home />
-      <About />
-      <Projects />
-      <GithubStats/>
-      <Contact />
-      <br/>
-      <Footer/>
+      <main className='main'>
+        <Home />
+        <About/>
+        <Skills/>
+        <Projects/>
+        <GithubStats/>
+        <Address/>
+      </main>
+
     </div>
   );
 }

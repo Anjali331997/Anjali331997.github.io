@@ -1,0 +1,79 @@
+.react-activity-calendar{
+    margin-bottom: var(--mb-1-5);
+}
+
+.gitstat_section{
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    justify-content: center;
+    align-content: center;
+    margin-top: var(--mb-1-5);
+    align-content: center;
+    
+    /* align-items: center; */
+    /* background-color: red; */
+}
+.stats_last{
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    margin-top: var(--mb-1-5);
+   padding-left: auto;
+   /* border: 1px solid black; */
+}
+
+@media screen and (max-width: 992px) {
+    .gitstat_section{
+       
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+        justify-content: center;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-items: center;
+        /* background-color: red; */
+    }
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    .gitstat_section{
+       
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+        justify-content: center;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-items: center;
+        /* background-color: red; */
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .gitstat_section{
+       
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+        justify-content: center;
+        /* border: 1px solid black; */
+        align-items: center;
+        justify-items: center;
+        /* background-color: red; */
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .gitstat_section{
+       
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+        justify-items: center;
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-items: center;
+        /* background-color: red; */
+    }
+  }
