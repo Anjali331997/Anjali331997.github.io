@@ -23,7 +23,8 @@ const About = () => {
 <br/><br/>
                         I have extensive experience in various technologies such as Mongo DB, Express, React, and Node. I firmly believe that collaboration is the cornerstone of building great things, and I am always eager to work with others to create something truly amazing.
                     </p>
-                    <a download="Anjali_AP_Resume" href={CV} className="button button--flex" id="resume-button-2">Download Resume
+                    <a download="Anjali_AP_Resume" href={CV} className="button button--flex" id="resume-button-2"  target="_blank"
+                      rel="noreferrer" >Download Resume
                         
                     </a>
                 </div>
