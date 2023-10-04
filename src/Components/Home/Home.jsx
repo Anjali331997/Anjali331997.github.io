@@ -10,7 +10,9 @@ const Home = () => {
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <Social />
-                    <div className="home__img home-img"></div>
+                    <div className="home__img">
+                        <img src="../../assets/Anjali_image.jpg" alt="" className='home-img' />
+                    </div>
                     <Data/>
                 </div>
 

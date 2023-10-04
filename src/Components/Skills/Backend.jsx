@@ -16,7 +16,7 @@ const Backend = () => {
 
     <div className="skills__box">
         <div className="skills__group">
-            <div className="skills__data">
+            <div className="skills__data skills-card">
                 <DiNodejs className="skills-card-img" />
                 <div>
                     <h3 className="skills__name skills-card-name">
@@ -26,7 +26,7 @@ const Backend = () => {
             </div>
 
             
-            <div className="skills__data">
+            <div className="skills__data skills-card">
                 <SiExpress className="skills-card-img" />
                 <div>
                     <h3 className="skills__name skills-card-name">
@@ -34,7 +34,7 @@ const Backend = () => {
                     </h3>
                 </div>
             </div>
-            <div className="skills__data">
+            <div className="skills__data skills-card">
                 <SiMongoose className="skills-card-img" />
                 <div>
                     <h3 className="skills__name skills-card-name">
@@ -42,7 +42,7 @@ const Backend = () => {
                     </h3>
                 </div>
             </div>
-            <div className="skills__data">
+            <div className="skills__data skills-card">
                 <DiMongodb className="skills-card-img" />
                 <div>
                     <h3 className="skills__name skills-card-name">
@@ -50,7 +50,7 @@ const Backend = () => {
                     </h3>
                 </div>
             </div>
-            <div className="skills__data">
+            <div className="skills__data skills-card">
                 <SiJsonwebtokens className="skills-card-img" />
                 <div>
                     <h3 className="skills__name skills-card-name">

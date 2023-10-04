@@ -15,7 +15,7 @@ function Address() {
       <p className="section__subtitle">Whether you want to get in touch, talk about a project divlaboration,
        or just say hi, I'd love to hear from you.</p>
 
-      <div style={{ justifyContent: "center", paddingBottom: "50px" }} className="contacts">
+      <div style={{ justifyContent: "center", paddingBottom: "50px" }} className="contacts contact">
         <div xs={4} md={2} className="tech-icons">
             <BsTelephone/>
             <br/>

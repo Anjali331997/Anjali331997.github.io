@@ -5,7 +5,7 @@ import './Skilss.css'
 
 export const Skills = () => {
     return (
-        <section className="section__skills section" id="skills">
+        <section className="section__skills section skilld" id="skills">
             <h2 className="section__title">Skills</h2>
             <span className="section__subtitle">
                 My technical skills
