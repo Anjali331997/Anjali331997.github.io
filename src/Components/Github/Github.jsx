@@ -9,7 +9,7 @@ import React from 'react';
 //     section,
 //     div,
 // } from './Styles';
-// import GitHubCalendar from 'react-github-calendar';
+import GitHubCalendar from 'react-github-calendar';
 
 import './Github.css'
 
@@ -20,12 +20,12 @@ export const GithubStats = () => {
             <span className="section__subtitle">
                 Github Stats
             </span>
-            {/* <GitHubCalendar className='react-activity-calendar' username="anjali331997" style={{ width: '100%', display: 'block', margin: 'auto', color:"#0A81AB"}} /> */}
-            <img className='react-activity-calendar'
+            <GitHubCalendar className='react-activity-calendar' username="anjali331997" style={{ width: '100%', display: 'block', margin: 'auto', color:"#0A81AB"}} />
+            {/* <img className='react-activity-calendar'
                 alt='github calender'
                 style={{ width: '80%', display: 'block', margin: 'auto' }}
                 src='https://ghchart.rshah.org/404040/Anjali331997'
-            />
+            /> */}
             <h1 className="home-about-description section__title">My <span className="purple">Statistics</span> </h1>
             <div className='gitstat_section'>
                 <div className='stats'>
