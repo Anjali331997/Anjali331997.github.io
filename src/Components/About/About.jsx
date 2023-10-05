@@ -20,12 +20,11 @@ const About = () => {
                     {/* <Info /> */}
                     <p className='about__description' id='user-detail-intro'>
                         Hi, I'm Anjali A P, MERN stack developer based in Thrissur, Kerala, curious to learn more about developing scalable distributed systems, love problem-solving, and care about writing readable as well as maintainable code.
-<br/><br/>
+                        <br /><br />
                         I have extensive experience in various technologies such as Mongo DB, Express, React, and Node. I firmly believe that collaboration is the cornerstone of building great things, and I am always eager to work with others to create something truly amazing.
                     </p>
-                    <a download="Anjali_AP_Resume" href={CV} className="button button--flex" id="resume-button-2"  target="_blank"
-                      rel="noreferrer" >Download Resume
-                        
+                    <a download="Anjali_AP_Resume" href={CV} className="button button--flex" id="resume-button-2" >Download Resume
+
                     </a>
                 </div>
 
