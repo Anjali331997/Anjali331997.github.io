@@ -28,7 +28,7 @@
 .contacts{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  justify-content: space-around;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
   gap: 1rem;
@@ -52,28 +52,32 @@
 }
 
 @media screen and (max-width: 992px) {
-  .gitstat_section{
-     
-      grid-template-columns:repeat(1,1fr);
-      gap: 1rem;
-      justify-content: center;
-      /* border: 1px solid black; */
-      align-items: center;
-      justify-items: center;
-      /* background-color: red; */
-  }
+ .contacts{
+  grid-template-columns: repeat(2,1fr);
+ }
 }
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
- 
+  .contacts{
+  
+    grid-template-columns: repeat(2,1fr);
+    padding: 1.2rem;
+   }
 }
 
 @media screen and (max-width: 576px) {
-  
+  .contacts{
+   
+    grid-template-columns: repeat(2,1fr);
+    padding: 1.2rem;
+   }
 }
 
 /* For small devices */
 @media screen and (max-width: 350px) {
-  
+  .contacts{
+    grid-template-columns: repeat(2,1fr);
+    padding: 1.2rem;
+   }
 }
