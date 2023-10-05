@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a924176d.css",
+    "main.css": "/static/css/main.fc06bb77.css",
     "main.js": "/static/js/main.13afb602.js",
     "static/js/787.aff9276c.chunk.js": "/static/js/787.aff9276c.chunk.js",
     "static/media/Anjali_AP_Resume.pdf": "/static/media/Anjali_AP_Resume.ee115bfa07f6ddafe3f7.pdf",
     "static/media/Anjali_image.jpg": "/static/media/Anjali_image.45b7208fd5d292e7c4e8.jpg",
     "index.html": "/index.html",
-    "main.a924176d.css.map": "/static/css/main.a924176d.css.map",
+    "main.fc06bb77.css.map": "/static/css/main.fc06bb77.css.map",
     "main.13afb602.js.map": "/static/js/main.13afb602.js.map",
     "787.aff9276c.chunk.js.map": "/static/js/787.aff9276c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a924176d.css",
+    "static/css/main.fc06bb77.css",
     "static/js/main.13afb602.js"
   ]
 }
