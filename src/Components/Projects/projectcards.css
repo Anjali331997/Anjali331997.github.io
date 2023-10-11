@@ -39,10 +39,10 @@
 
 .project-tech-stack {
   font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-  background-color: #b6b6b9;
+  font-weight: 1000;
+  /* background-color: #b6b6b9; */
   padding: 2px;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
   padding-right: 1rem;
   border-radius: 1.25rem;
 
