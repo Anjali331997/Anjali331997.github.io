@@ -1,5 +1,5 @@
 import React from 'react'
-import { DiGithubBadge, DiVisualstudio } from 'react-icons/di'
+import { DiGithubBadge, DiNpm, DiVisualstudio } from 'react-icons/di'
 import { SiPostman } from 'react-icons/si'
 
 
@@ -34,6 +34,15 @@ const Tools = () => {
                         <div>
                             <h3 className="skills__name skills-card-name">
                                Postman
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div className="skills__data skills-card">
+                        <DiNpm className="skills-card-img" />
+                        <div>
+                            <h3 className="skills__name skills-card-name">
+                               npm
                             </h3>
                         </div>
                     </div>
