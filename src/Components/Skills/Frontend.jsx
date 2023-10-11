@@ -2,8 +2,6 @@ import React from 'react'
 import {
     DiJavascript1,
     DiReact,
-
-    DiGithubBadge,
     DiBootstrap,
     DiHtml5,
     DiCss3,
@@ -86,14 +84,7 @@ const Frontend = () => {
                         </div>
                     </div>
 
-                    <div className="skills__data skills-card">
-                        <DiGithubBadge className="skills-card-img" />
-                        <div>
-                            <h3 className="skills__name skills-card-name">
-                                Github
-                            </h3>
-                        </div>
-                    </div>
+                    
 
                     <div className="skills__data skills-card">
                         <SiReactrouter className="skills-card-img" />

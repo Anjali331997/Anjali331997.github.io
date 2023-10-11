@@ -2,9 +2,6 @@ import React from 'react'
 import {
     DiNodejs,
     DiMongodb,
- 
-
-
 } from "react-icons/di";
 import {  SiExpress,   SiMongoose, SiJsonwebtokens } from "react-icons/si";
 
