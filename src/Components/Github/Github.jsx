@@ -9,7 +9,7 @@ import React from 'react';
 //     section,
 //     div,
 // } from './Styles';
-import GitHubCalendar from 'react-github-calendar';
+// import GitHubCalendar from 'react-github-calendar';
 
 import './Github.css'
 
